@@ -1,0 +1,25 @@
+{
+  "name": "tailswing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "tailwind -i ./src/src.css -o ./style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planetoftheweb/tailswing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/planetoftheweb/tailswing/issues"
+  },
+  "homepage": "https://github.com/planetoftheweb/tailswing#readme",
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.9"
+  }
+}
